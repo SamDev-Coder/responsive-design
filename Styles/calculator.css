@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles and css */
+body {
+  background-color: aliceblue;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 450px;
+  padding: 18px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+#on-screen-pad {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 18px;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: end;
+  
+}
+
+#operators-keypad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.clear-keypad {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  justify-content: center;
+}
+
+.division-sign {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 8px;
+  width: 36px;
+  border-radius: 8px;
+}
+
+.multiplication-sign {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 8px;
+  width: 36px;
+  border-radius: 8px;
+}
+
+.clear-sign {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 8px;
+  width: 36px;
+  border-radius: 8px;
+}
+
+#numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.pad{
+  display: flex;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  width: 36px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.equal-sign {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 9px;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.third-row {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+#pad {
+  display: flex;
+  margin-right: 32px;
+  background-color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 8px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  width: 36px;
+  justify-content: center;
+  cursor: pointer;
+}
